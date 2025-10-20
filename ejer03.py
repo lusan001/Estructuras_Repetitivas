@@ -21,11 +21,11 @@ intentos = 10
 for i in range(1, intentos + 1):
     num = int(input("Introduce un numero del 1 al 100 : "))
     if num > num_aleatorio:
-        print("El numero es mayor")
+        print("El numero es mayor que el numero aleatorio")
     elif num < num_aleatorio:
-        print("El numero es menor")
+        print("El numero es menor que el numero aleatorio")
     else:
-        print("Has acertado el numero")
+        print("Has acertado el numero que el numero aleatorio en ", i, "intentos")
         break
 
 if i == intentos:
